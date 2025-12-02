@@ -1,0 +1,16 @@
+Both Cleaning_Deprivation.ipynb and Cleaning_Migration.ipynb are dependent on tables exported by Cleaning_Migration.ipynb
+
+In Cleaning_Migration.ipynb we still need to:
+    Impute Values for 50th percentile aka Median for those areas that are missing them. 
+        Can be done by taking left / right values for extreme ends and average of left right for middle cells.
+    Remove Councils from income table that have significant amount of missing values.
+
+Analysis:
+     Foster–Wolfson Polarization Index on all income data to compute "Income Inequality" (New Column on Table)
+     "Year of Year Change" on "Income Inequality" (New Column on Table)
+     Relationship of "Year on Year Change" to "Migration Data" and make a regression model.
+     Map "Deprivation Indices" to "Income Inequality" to see if there is a relationship
+
+    
+Write up:
+    Write Up
