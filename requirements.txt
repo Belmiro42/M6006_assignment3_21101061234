@@ -6,3 +6,4 @@ xlrd
 plotly
 nbformat
 odfpy
+statsmodels
